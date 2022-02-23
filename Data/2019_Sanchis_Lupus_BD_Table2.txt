@@ -1,0 +1,17 @@
+Object	F_cont	I_peak	rms	Survey
+J154518.5-342125	5.65	5.18	0.12	Sanchis+19	
+SONYC-Lup3-7	0.52	0.62	0.07	Sanchis+19
+Lup706	0.79	0.71	0.10	Sanchis+19
+AKC2006-18	<0.23	-	0.08	Sanchis+19
+SONYC-Lup3-10	<0.24	-	0.07	Sanchis+19
+Lup818s	7.44	7.44	0.24	Ansdell+16
+J161019.8-383607	<1.24	-	0.23	Ansdell+16
+J160855.3-384848	1.81	1.81	0.26	Ansdell+16
+Lup607	<0.95	-	0.24	Ansdell+16
+Sz102	14.69	7.81	0.34	vanTerwisga+19
+V1094 Sco	553.17	23.43	0.37	vanTerwisga+19
+GQ Lup	78.00	42.36	0.34	vanTerwisga+19
+Sz76	12.00	4.88	0.35	vanTerwisga+19
+Sz77	4.88	3.88	0.20	vanTerwisga+19
+RXJ1556.1-3655	57.52	16.70	0.35	vanTerwisga+19
+EX Lup	41.78	9.80	0.35	vanTerwisga+19
