@@ -1,0 +1,29 @@
+# Table 4
+# Measured Continuum Flux Densities at a Mean Frequency of 340.7 GHz
+#  (mJy)	(arcsec)	(arcsec)	(mJy beam^-1)	(arcsec)	(deg)	
+#  (1)	(2)	(3)	(4)	(5)	(6)	(7)	
+Source	S_total	eS_total	Deltaalpha	eDeltaalpha	Deltadelta	eDeltadelta	sigma	theta_b	P.A.	
+[PBB2002]_J155624.8-222555	0.28	0.18	...	...	...	...	0.15	0.80 x 0.48	-74	
+[PBB2002]_J155706.4-220606	0.32	0.20	...	...	...	...	0.20	0.91 x 0.48	-73	
+[PBB2002]_J155729.9-225843	-0.04	0.20	...	...	...	...	0.19	0.86 x 0.48	-74	
+[PBB2002]_J155829.8-231007	5.86	0.18	0.10	0.11	-0.01	0.11	0.20	0.76 x 0.48	-75	
+[PZ99]_J160357.6-203105	4.30	0.39	0.01	0.08	0.06	0.08	0.45	0.65 x 0.48	-8	
+[PZ99]_J160421.7-213028	218.76	0.81	0.01	0.11	-0.03	0.11	0.19	0.76 x 0.45	-74	
+[PBB2002]_J160525.5-203539	1.53	0.20	-0.09	0.19	0.52	0.19	0.19	0.99 x 0.48	-72	
+[PBB2002]_J160532.1-193315	0.25	0.20	...	...	...	...	0.23	0.94 x 0.48	-72	
+[PBB2002]_J160600.6-195711	0.00	0.13	...	...	...	...	0.13	0.68 x 0.45	-76	
+ScoPMS_31	4.08	0.52	0.02	0.22	0.50	0.22	0.53	0.65 x 0.49	-3	
+[PBB2002]_J160622.8-201124	0.59	0.14	0.09	0.19	0.05	0.19	0.13	0.70 x 0.45	-75	
+[PBB2002]_J160643.8-190805	1.11	0.42	...	...	...	...	0.47	0.65 x 0.48	-5	
+[PBB2002]_J160702.1-201938	-0.09	0.20	...	...	...	...	0.20	1.04 x 0.48	-72	
+[PBB2002]_J160823.2-193001	43.19	0.81	0.21	0.20	0.29	0.21	0.52	0.65 x 0.50	-9	
+[PBB2002]_J160827.5-194904	0.76	0.13	0.01	0.15	-0.03	0.15	0.16	0.64 x 0.45	-76	
+[PBB2002]_J160900.0-190836	1.73	0.13	0.04	0.12	0.09	0.12	0.14	0.66 x 0.45	-76	
+[PBB2002]_J160900.7-190852	47.28	0.91	0.42	0.20	-0.27	0.21	0.62	0.65 x 0.48	-4	
+[PBB2002]_J160959.4-180009	0.67	0.18	-0.19	0.26	-0.13	0.26	0.18	0.80 x 0.48	-72	
+[PZ99]_J161411.0-230536	4.77	0.14	0.09	0.04	-0.07	0.04	0.16	0.70 x 0.45	-76	
+[PBB2002]_J161420.2-190648	40.69	0.22	-0.12	0.20	0.11	0.20	0.15	0.77 x 0.45	-73	
+# Notes.
+# Column 1: star name. Column 2: integrated flux density derived by fitting a point-source model to the uv data, unless otherwise indicated. Columns 3 and 4: right ascension and declination offsets of the ALMA continuum source from the stellar position; ellipses indicate that the source was not detected with ALMA and the offsets were fixed at the stellar position during the model fitting. Column 5: rms noise in an image created with robust = 2 and measured in an annulus between 4" and 5" centered on the stellar position. Column 6: FWHM synthesized beam size. Column 7: position angle of the beam measured east of north.
+# a  Integrated flux density measured on an image with a circular aperture of 1."5 radius.
+# b  Integrated flux density measured by fitting an elliptical Gaussian to the visibility data.
