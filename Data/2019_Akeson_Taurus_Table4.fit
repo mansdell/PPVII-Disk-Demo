@@ -1,0 +1,276 @@
+SIMPLE  =                    T / Standard FITS Format                           BITPIX  =                    8 / Character data                                 NAXIS   =                    0 / No Image --- just extension(s)                 EXTEND  =                    T / There are standard extensions                  ORIGIN  = 'xml2fits_v1.95'     / Converted from XML-Astrores to FITS                                     e-mail: question@simbad.u-strasbg.fr                   COMMENT  ARG='-rm'                                                              LONGSTRN= 'OGIP 1.0'           / Long string convention (&/CONTINUE) may be usedDATE    = '2021-12-21'         / Written on 2021-12-21:21:46:13 (GMT)                                        by: root@92eeaa604c43.cfa.harvard.edu                       **********************************************************                          EXCERPT from catalogues stored in VizieR (CDS)                                             with the following conditions:                                   **********************************************************                                                                                                      VizieR Astronomical Server vizier.cfa.harvard.edu                               Date: 2021-12-21T21:46:13 [V1.99+ (14-Oct-2013)]                                Explanations and Statistics of UCDs: See LINK below                             In case of problem, please report to: cds-question@unistra.fr                                                                                          INFO    = 'votable-version=1.99+ (14-Oct-2013)' / #                             INFO    = '-ref=VIZ61c24b1c1d4f2' / #                                           INFO    = '-out.max=unlimited' / #                                              Q-PARAMS=                   40 / Number of queryParameters (followed by list)            -oc.form=dec                                                                    -out.max=unlimited                                                              #out.form=FITS (binary) Table                                                   -nav=cat:J/ApJ/872/158&tab:{J/ApJ/872/158/table4}&key:source=J/ApJ/872/         158/table4&HTTPPRM:&                                                            -c.eq=J2000                                                                     -c.r= 2                                                                         -c.u=arcmin                                                                     -c.geom=r                                                                       -source=J/ApJ/872/158/table4                                                    -order=I                                                                        -out=ALMA                                                                       -out=2MASS                                                                      -out=Name                                                                       -out=Role                                                                       -out=Sample                                                                     -out=binsep                                                                     -out=r_binsep                                                                   -out=l_F1.3mm                                                                   -out=F1.3mm                                                                     -out=e_F1.3mm                                                                   -out=r_F1.3mm                                                                   -out=SpT                                                                        -out=r_SpT                                                                      -out=logMstar                                                                   -out=e_logMstar                                                                 -out=E_logMstar                                                                 -out=logLstar                                                                   -out=e_logLstar                                                                 -out=E_logLstar                                                                 -out=l_logMdisk                                                                 -out=logMdisk                                                                   -out=e_logMdisk                                                                 -out=Dist                                                                       -out=e_Dist                                                                     -out=f_Dist                                                                     -out=L10                                                                        -out=Simbad                                                                     Simbad=Simbad                                                                   -out=_RA                                                                        -out=_DE                                                                        #                                                                               #RESOURCE=yCat_18720158                                                         #Name: J/ApJ/872/158                                                            #Title: Survey of Class II sources in Taurus with ALMA (Akeson+, 2019)          #Coosys J2000_2000.000: eq_FK5 J2000                                                                                                                   END                                                                             XTENSION= 'BINTABLE'           / Binary Table Extension                         BITPIX  =                    8 / binary data                                    NAXIS   =                    2 / Simple 2-D matrix                              NAXIS1  =                  141 / Number of bytes per record                     NAXIS2  =                  211 / Number of records                              PCOUNT  =                    0 / Get rid of random parameters                   GCOUNT  =                    1 / Only one group (isn't it obvious?)             TFIELDS =                   30 / Number of data fields (columns)                CDS-CAT = 'J/ApJ/872/158'      / Catalogue designation in CDS nomenclature               Survey of Class II sources in Taurus with ALMA (Akeson+, 2019)         EXTNAME = 'J_ApJ_872_158_table4' / Identification of the table                  CDS-NAME= 'J/ApJ/872/158/table4' / Table name in METAtab                                 Taurus disk and stellar properties                                     UCD__1  = 'meta.ref.url'       / ................................byte#0         TDISP1  = 'A1      '           / Display Fortran Format                         TFORM1  = 'A       '           / Ascii string                                   TTYPE1  = 'ALMA    '           / Display the ALMA data for this source (link to                                  Table 2) (link)                                UCD__2  = 'meta.id;meta.main'  / ................................byte#1         TDISP2  = 'A17     '           / Display Fortran Format                         TFORM2  = '17A     '           / Ascii string                                   TTYPE2  = '_2MASS  '           / 2MASS designation (JHHMMSSss+DDMMSSs) (link)   UCD__3  = 'meta.id '           / ................................byte#18        TDISP3  = 'A20     '           / Display Fortran Format                         TFORM3  = '20A     '           / Ascii string                                   TTYPE3  = 'Name    '           / Source name (link)                             UCD__4  = 'meta.code'          / ................................byte#38        TDISP4  = 'I2      '           / Display Fortran Format                         TFORM4  = 'I       '           / 16-bit (short) integer                         TTYPE4  = 'Role    '           / [-9/4]? Role (1) [NULL integer written as an                                    empty string]                                  TNULL4  =               -32768 / NULL definition                                UCD__5  = 'meta.code'          / ................................byte#40        TDISP5  = 'A1      '           / Display Fortran Format                         TFORM5  = 'A       '           / Ascii string                                   TTYPE5  = 'Sample  '           / [YN] In sample?                                UCD__6  = 'pos.angDistance;src.orbital' / .......................byte#41        TDISP6  = 'F6.3    '           / Display Fortran Format                         TFORM6  = 'E       '           / 32-bit floating-point (simple precision)       TTYPE6  = 'binsep  '           / [0.1/17.2]? Binary separation                  TUNIT6  = 'arcsec  '           / second of arc                                  UCD__7  = 'meta.ref;pos.frame' / ................................byte#45        TDISP7  = 'I1      '           / Display Fortran Format                         TFORM7  = 'B       '           / unsigned 8-bit integer                         TTYPE7  = 'r_binsep'           / ? Binary separation reference (see refs.dat                                     file) [NULL integer written as an empty string]TNULL7  =                  255 / NULL definition                                UCD__8  = 'meta.code.error'    / ................................byte#46        TDISP8  = 'A1      '           / Display Fortran Format                         TFORM8  = 'A       '           / Ascii string                                   TTYPE8  = 'l_F1_3mm'           / Limit on Flux                                  UCD__9  = 'phot.flux.density;em.mm.200-400GHz' / ................byte#47        TDISP9  = 'F6.2    '           / Display Fortran Format                         TFORM9  = 'E       '           / 32-bit floating-point (simple precision)       TTYPE9  = 'F1_3mm  '           / [0.16/344.2] Flux at 1.3mm                     TUNIT9  = 'mJy     '           / milliJansky(10-26W/m2/Hz)                      UCD__10 = 'stat.error'         / ................................byte#51        TDISP10 = 'F5.2    '           / Display Fortran Format                         TFORM10 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE10 = 'e_F1_3mm'           / [0.07/17.8]? Uncertainty in F1.3mm             TUNIT10 = 'mJy     '           / milliJansky(10-26W/m2/Hz)                      UCD__11 = 'meta.ref;pos.frame' / ................................byte#55        TDISP11 = 'I2      '           / Display Fortran Format                         TFORM11 = 'I       '           / 16-bit (short) integer                         TTYPE11 = 'r_F1_3mm'           / F1.3mm reference (see refs.dat file) (link)    UCD__12 = 'src.spType'         / ................................byte#57        TDISP12 = 'A9      '           / Display Fortran Format                         TFORM12 = '9A      '           / Ascii string                                   TTYPE12 = 'SpT     '           / Spectral Type                                  UCD__13 = 'meta.ref;pos.frame' / ................................byte#66        TDISP13 = 'A5      '           / Display Fortran Format                         TFORM13 = '5A      '           / Ascii string                                   TTYPE13 = 'r_SpT   '           / Spectral Type Reference(s) (see refs.dat file)                                  (link)                                         UCD__14 = 'phys.mass'          / ................................byte#71        TDISP14 = 'F5.2    '           / Display Fortran Format                         TFORM14 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE14 = 'logMstar'           / [-1.77/0.54] Log of stellar mass               TUNIT14 = '[Msun]  '           / log[ solar mass ]                              UCD__15 = 'stat.error'         / ................................byte#75        TDISP15 = 'F5.2    '           / Display Fortran Format                         TFORM15 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE15 = 'e_logMstar'         / [0.01/0.38] Lower uncertainty in logMstar      TUNIT15 = '[Msun]  '           / log[ solar mass ]                              UCD__16 = 'stat.error;stat.max' / ...............................byte#79        TDISP16 = 'F5.2    '           / Display Fortran Format                         TFORM16 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE16 = 'e_logmstar_lc'      / [0.0/0.38] Upper uncertainty in logMstar       TUNIT16 = '[Msun]  '           / log[ solar mass ]                              UCD__17 = 'phys.luminosity;em.radio' / ..........................byte#83        TDISP17 = 'F5.2    '           / Display Fortran Format                         TFORM17 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE17 = 'logLstar'           / [-2.35/1.72] Log of stellar luminosity         TUNIT17 = '[Lsun]  '           / log[ solar luminosity ]                        UCD__18 = 'stat.error'         / ................................byte#87        TDISP18 = 'F5.2    '           / Display Fortran Format                         TFORM18 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE18 = 'e_logLstar'         / [0.01/0.65] Lower uncertainty in logLstar      TUNIT18 = '[Lsun]  '           / log[ solar luminosity ]                        UCD__19 = 'stat.error;stat.max' / ...............................byte#91        TDISP19 = 'F5.2    '           / Display Fortran Format                         TFORM19 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE19 = 'e_loglstar_lc'      / [0.01/0.65] Upper uncertainty in logLstar      TUNIT19 = '[Lsun]  '           / log[ solar luminosity ]                        UCD__20 = 'meta.code.error'    / ................................byte#95        TDISP20 = 'A1      '           / Display Fortran Format                         TFORM20 = 'A       '           / Ascii string                                   TTYPE20 = 'l_logMdisk'         / Limit flag on logMdisk                         UCD__21 = 'phys.mass'          / ................................byte#96        TDISP21 = 'F5.2    '           / Display Fortran Format                         TFORM21 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE21 = 'logMdisk'           / [-4.59/-0.93] Log of disk mass                 TUNIT21 = '[Msun]  '           / log[ solar mass ]                              UCD__22 = 'stat.error'         / ................................byte#100       TDISP22 = 'F5.2    '           / Display Fortran Format                         TFORM22 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE22 = 'e_logMdisk'         / [0.08/0.27]? Uncertainty in logMdisk           TUNIT22 = '[Msun]  '           / log[ solar mass ]                              UCD__23 = 'pos.distance;pos.heliocentric' / .....................byte#104       TDISP23 = 'F6.2    '           / Display Fortran Format                         TFORM23 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE23 = 'Dist    '           / [115.12/873.64] Distance                       TUNIT23 = 'pc      '           / parsec                                         UCD__24 = 'stat.error'         / ................................byte#108       TDISP24 = 'F6.2    '           / Display Fortran Format                         TFORM24 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE24 = 'e_Dist  '           / [0.05/346.2] Uncertainty in Dist               TUNIT24 = 'pc      '           / parsec                                         UCD__25 = 'meta.code'          / ................................byte#112       TDISP25 = 'I1      '           / Display Fortran Format                         TFORM25 = 'B       '           / unsigned 8-bit integer                         TTYPE25 = 'f_Dist  '           / [1/8]? Distance flag (2) [NULL integer written                                  as an empty string]                            TNULL25 =                  255 / NULL definition                                UCD__26 = 'meta.ref.url'       / ................................byte#113       TDISP26 = 'I3      '           / Display Fortran Format                         TFORM26 = 'I       '           / 16-bit (short) integer                         TTYPE26 = 'L10     '           / Display data from Luhman+, 2010, J/ApJS/186/111                                 within 1" [NULL integer written as an empty                                     string]                                        TNULL26 =               -32768 / NULL definition                                UCD__27 = 'meta.ref.url'       / ................................byte#115       TDISP27 = 'A6      '           / Display Fortran Format                         TFORM27 = '6A      '           / Ascii string                                   TTYPE27 = 'Simbad  '           / Simbad column added by the CDS                 UCD__28 = 'pos.eq.ra;meta.main' / ...............................byte#121       TDISP28 = 'F9.5    '           / Display Fortran Format                         TFORM28 = 'D       '           / 64-bit floating-point (double precision)       TTYPE28 = '_RA     '           / Right Ascension (J2000) from SIMBAD (not part                                   of the original data)                          TUNIT28 = 'deg     '           / degree                                         UCD__29 = 'pos.eq.dec;meta.main' / ..............................byte#129       TDISP29 = 'F9.5    '           / Display Fortran Format                         TFORM29 = 'D       '           / 64-bit floating-point (double precision)       TTYPE29 = '_DE     '           / Declination (J2000) from SIMBAD (not part of                                    the original data)                             TUNIT29 = 'deg     '           / degree                                         UCD__30 = 'meta.record'        / ................................byte#137       TDISP30 = 'I8      '           / Display Fortran Format                         TFORM30 = 'J       '           / 32-bit integer                                 TTYPE30 = 'recno   '           / Record number assigned by the VizieR team.                                      Should Not be used for identification. (link)  END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              J04135737+2918193IRAS 04108+2910     ÿ÷Nÿÿÿÿ <Affÿÿÿÿ M3       12   ¿
+=q>B\=ÌÌÍ¿   >B\=õÂ<À.¸RÿÿÿÿBö#×?Ã×
+  Simbad@O¾™Ã‹ª@=N-ÿı    J04141188+2811535J04141188+2811535     Nÿÿÿÿ  >\)=£×
+ M6.25    13   ¿   >LÌÍ>Š=q¿ÈõÃ>£×
+>Ü(ö Àˆ  >#×
+C³3@7
+=  Simbad@OÆVU¦ã¤@<2»;’ô“    J04141358+2812492FM Tau                Yÿÿÿÿ  AQ™š@,ÌÍ M4.5     14   ¿Tzá>k…>LÌÍ¿Y™š>Ç®>…¸ À0£×>¸Cp¤?O\)  Simbad@OÇ>¨áô@<6²BŒ    J04141458+2827580FN Tau                Yÿÿÿÿ  A†ff@ff M3.5     14   ¿¸R>LÌÍ>\)¿
+=>…¸>#×
+ À.{=ÌÌÍCÂ?‡®  Simbad@OÇÈœì”@<wT4ds½    J04141700+2810578CW Tau                Yÿÿÿÿ  BQ33@à   K3.0     14   =LÌÍ=£×
+=\)>Â\>\)=áG® Àp¤=ÌÌÍCğ¤?.{  Simbad@OÉ¡‰Û@<.ÆC½ê    J04141760+2806096CIDA 1                Yÿÿÿÿ  AX  @333 M4.5     14   ¿Tzá>k…>LÌÍ¿Y™š>Ç®>…¸ À.{>¸C0¤?Ë…  Simbad@OÉdGx|q@<IEÜÔ    J04142626+2806032MHO 1                Nÿÿÿÿ  CX  ?B\ 	M2.5     15   ¾õÂ>\)=£×
+¾Ü(ö>#×
+=áG® ¿Ñë…=¸QìCQì@vff  Simbad@OÎÛ¬KÃ@<Õysq‡    J04142626+2806032MHO 2 AB            ÿşNÿÿÿÿ  CLÍ?J=q 	M2.5/5.2 15   ¾8Qì>\)=£×
+¾³33>LÌÍ>.{ ¿ï\)=¸QìCQì@vff Simbad@OÎÛ¬KÃ@<Õysq‡    J04143054+2805147BHS98 MHO 3 AB      ÿÿNÿÿÿÿ <A@  ÿÿÿÿ K7/M2    15,8 =áG®<#×
+=#×
+>\)=#×
+=¸Qì<À!G®ÿÿÿÿCq\)A4£×  Simbad@OĞKŒfÚç@<_CÏÁ   	 J04144730+2646264FP Tau                Yÿÿÿÿ  @ÁG®>LÌÍ M2.6     14   ¾úáH>#×
+=£×
+¾áG®>.{=áG® ÀN{=¸QìC ?Y™š  Simbad@OÙ:f]M@:Æ%#Í   
+ J04144786+2648110CX Tau                Yÿÿÿÿ  Aff@33 M2.5     14   ¾õÂ>\)=£×
+¾Ü(ö>#×
+=áG® ÀB\=õÂBşë…?&ff  Simbad@OÙ†¦09;@:Í•MÂ¡ÿ   *J04144928+2812305FO Tau A             Y>™š @Dzá>B\ M3.5     16   ¿¸R>LÌÍ>\)¿
+=>…¸>#×
+ À\ÌÍ=¸QìCì?À   Simbad@OÚHS…¡4@<5]¾hÍ   *J04144928+2812305FO Tau B             Y>™š @<(ö>B\ M3.5     16   ¿¸R>LÌÍ>\)¿
+=>…¸>#×
+ À^{=¸QìCì?À   Simbad@OÚHS…¡4@<5]¾hÍ    J04153916+2818586J04153916+2818586   ÿ÷Nÿÿÿÿ  AVff?³33 M4.0     14   ¿:áH>B\>B\¿.{>³33>B\ À333=ÌÌÍC?³33  Simbad@Oôã#Ñî@<PöIµµ(    J04154278+2909597IRAS 04125+2902     ÿ÷Nÿÿÿÿ  AŸ33@    M1.25    12   ¾½p¤=¸Qì=ÌÌÍ¾\)=õÂ>™š À#33=ÌÌÍC=q?ØQì  Simbad@OöÑÕb&5@=*§Ä”§    J04155799+2746175J04155799+2746175   ÿ÷Nÿÿÿÿ  AI™š?³33 M5.2     14   ¿xQì>Š=q>LÌÍ¿\)>Ü(ö>Ç® À,(ö>¸C0¤?ü(ö  Simbad@Oşï°\@;ÅÛáãÌ    J04161210+2756385J04161210+2756385     Yÿÿÿÿ  @(ö=õÂ M4.75    13   ¿^¸R>Â\>B\¿p£×?&ff>”zá À^¸R=áG®C	  @p¤  Simbad@P:$<f@;ñ«£ş§"    J04163911+2858491J04163911+2858491     Yÿÿÿÿ <@   ÿÿÿÿ M5.5     17   ¿†ff>Š=q>k…¿   >æff>Ç®<ÀN{ÿÿÿÿC=q?ØQì Simbad@P
+o-Ù‰@<úù*Ò    J04173372+2820468CY Tau                Yÿÿÿÿ  BÌÍ@¼ÌÍ M2.3     14   ¾ë…=õÂ=¸Qì¾Ñë…>\)=õÂ À
+==¸QìC hö?:áH  Simbad@PşÚ0z@<X©{¾¥b    J04174955+2813318KPNO 10               Yÿÿÿÿ  @ù™š?³33 M5       18   ¿k…>”zá>B\¿ƒ×
+>úáH>³33 À:=q>¸Cã×@ÌÍ  Simbad@P7…“:@<9¹ÒeÚ–    J04174965+2829362SS94 V410 X-ray 1     Yÿÿÿÿ <@Y™šÿÿÿÿ M3.7     14   ¿+…>LÌÍ>.{¿!G®>”zá>8Qì<ÀZáHÿÿÿÿC ‘ì?¢\  Simbad@P=øôs@<~Q€Ëã    J04181078+2519574V409 Tau            ÿ÷Nÿÿÿÿ  A•™š?³33 M0.6     14   ¾™™š=ÌÌÍ=£×
+¾8Qì>™š=áG® À1ë…=¸QìCŞ¸?0£×  Simbad@P"à@Ø@9U%–ˆT    J04181710+2828419V410 Anon 13          Yÿÿÿÿ  >ğ£×=£×
+ M5.75    19   ¿   >¸>Â\¿Ê=q>LÌÍ?&ff À‚=q>B\Bø¸@¦¸R  Simbad@P$üñ1@<zr|•    J04183112+2816290DD Tau A             Y?ë… A33@‰™š M3.5     16   ¿¸R>LÌÍ>\)¿
+=>…¸>#×
+ À@  >8QìC c×?uÂ Simbad@P(Ló?nò@<FWQZ    J04183112+2816290DD Tau B             Y?ë… @Y™š?ó33 M3.5     16   ¿¸R>LÌÍ>\)¿
+=>…¸>#×
+ À[…>W
+=C c×?uÂ Simbad@P(Ló?nò@<FWQZ   *J04183158+2816585CZ Tau A             Y>¢MÓ<>¸Qìÿÿÿÿ M3       20   ¿
+=q>B\=ÌÌÍ¿   >B\=õÂ<ÀÂÿÿÿÿC c×?uÂ Simbad@P(l–ê3>@<HgÕ’   *J04183158+2816585CZ Tau B             Y>¢MÓ ?¸R=õÂ M6       8    ¿œ(ö>LÌÍ>”zá¿Â\>¸R>úáH À|(ö>™šC c×?uÂ Simbad@P(l–ê3>@<HgÕ’    J04183444+2830302SS94 V410 X-ray 2   ÿ÷Nÿÿÿÿ  Avff@33 M0       12   ¾€  =ÌÌÍ=#×
+½áG®>\)=uÂ À8õÃ=ÌÌÍC Ùš?‘ë… Simbad@P)/“ÊóÆ@<‚&?^¢Ã    J04184133+2827250LR1                 ÿ÷Nÿÿÿÿ  Aöff?ÌÌÍ K4.5     19   ½\)=#×
+=£×
+>8Qì=\)>¸ À*áH=¸QìC Ùš?‘ë… Simbad@P+á@<túy–e`    J04184250+2818498SS94 V410 X-ray 7 ABÿÿNÿÿÿÿ <AP  ÿÿÿÿ M0.5/2.7515,8 <#×
+=ÌÌÍ=\)<#×
+>#×
+=ÌÌÍ<ÀAG®ÿÿÿÿBúŠ=@‚=q  Simbad@P+UJØú@<PYp=P    J04190110+2819420V410 X-ray 6          Yÿÿÿÿ <>#×
+ÿÿÿÿ M5.9     14   ¿¸R>#×
+>¨õÃ¿Ç®>€  ?ë…<À’áHÿÿÿÿBî\@(ö  Simbad@P0K` éã@<T3aÍ©    J04190126+2802487KPNO 12               Nÿÿÿÿ <@ffÿÿÿÿ M9.25    22   ¿â\>¸>\)Àff>™š>W
+=<ÀLÌÍÿÿÿÿC \)?‹… Simbad@P0WpÄv]@<õ'îr     J04191281+2829330FQ Tau A             Y?G® @Fff>W
+= 	M3       16   ¿
+=q>B\=ÌÌÍ¿   >B\=õÂ À_\)=¸QìC Ùš?‘ë… Simbad@P3j¬j @<~"Ue¤   ! J04191281+2829330FQ Tau B             Y?G® @,ÌÍ>™š 	M3.5     16   ¿¸R>LÌÍ>\)¿
+=>…¸>#×
+ Àaë…=¸QìC Ùš?‘ë… Simbad@P3j¬j @<~"Ue¤   " J04191583+2906269BP Tau                Yÿÿÿÿ  B&  @ÌÍ M0.5     14   ¾”zá=ÌÌÍ=\)¾.{>™š=ÌÌÍ ÀÌÍ=¸QìC œ)?uÂ  Simbad@P48óİâ†@=ƒÓÖB   # J04192625+2826142V819 Tau              Yÿÿÿÿ  ?®>\) 
+K8       14   ¾LÌÍ<#×
+<#×
+¼õÂ<#×
+<#×
+ À‹…=õÂC8R?ŒÌÍ  Simbad@P7+m<[@<oò‚°   $ J04193545+2827218FR Tau              ÿ÷Nÿÿÿÿ <Ap  ÿÿÿÿ M5.3     14   ¿€  >Š=q>W
+=¿•Â>×
+=>Ñë…<À(õÃÿÿÿÿC c×?uÂ Simbad@P9tm0´»@<tÁ–,}   % J04201611+2821325J04201611+2821325   ÿ÷Nÿÿÿÿ <?Ù™šÿÿÿÿ M6.5     12   ¿ª=q>.{>Š=q¿Ù™š>€  >æff<À]p¤ÿÿÿÿC ¨ö@Vff  Simbad@PDLŠÅÁ@<[é‰$§–   & J04202144+2813491J04202144+2813491   ÿ÷Nÿÿÿÿ  BQ™š?À   M1       12   ¾³33=¸Qì=ÌÌÍ¾€  >¸>\) Àff=¸QìBüuÃ?Ë… Simbad@PE·ÔCé@<:ö¦ê£   ' J04202555+2700355J04202555+2700355     Yÿÿÿÿ  @¹G®>#×
+ M5.25    13   ¿záH>Š=q>W
+=¿‘ë…>Ü(ö>ÌÌÍ À4zá>¸C)ÌÍ@¬(ö  Simbad@PFĞ®õÀ@;‡&Y c   ( J04202583+2819237IRAS 04173+2812     ÿ÷Nÿÿÿÿ <@   ÿÿÿÿ M4       12   ¿:áH>B\>B\¿.{>³33>B\<Àk…ÿÿÿÿBôŠ=@ÍÂ  Simbad@PFã§Ú¤ü@<RÂQ   ) J04202606+2804089J04202606+2804089   ÿ÷Nÿÿÿÿ <@‰™šÿÿÿÿ M3.5     14   ¿¸R>LÌÍ>\)¿
+=>…¸>#×
+<ÀUÂÿÿÿÿBşš?\(ö  Simbad@PFóv1>6@<µÕÈ­;   * J04210795+2702204CFHT-BD-Tau 19        Yÿÿÿÿ <@,ÌÍÿÿÿÿ M5.25    12   ¿záH>Š=q>W
+=¿‘ë…>Ü(ö>ÌÌÍ<ÀLÌÍÿÿÿÿC O\@=q Simbad@PR 2øò@;	öZ^Ì   + J04210934+2750368J04210934+2750368   ÿ÷Nÿÿÿÿ <?æffÿÿÿÿ M4       23   ¿:áH>B\>B\¿.{>³33>B\<Àp£×ÿÿÿÿBëáH?¯\)  Simbad@PR}Y‚á@;×ë:ùø   , J04213459+2701388J04213459+2701388     Yÿÿÿÿ <>.{ÿÿÿÿ M5.5     13   ¿†ff>Š=q>k…¿   >æff>Ç®<À‹33ÿÿÿÿC&W
+@vff  Simbad@PY9˜$Åá@;9ˆş   -*J04214323+1934133IRAS 04187+1927       Yÿÿÿÿ  @lÌÍ>W
+= M2.4     14   ¾ğ£×>¸=£×
+¾×
+=>™š=áG® ÀS×
+=¸QìC(ö@(ö  Simbad@P[‡Š‹€+@3’^)˜Ş   . J04214631+2659296J04214631+2659296     Yÿÿÿÿ <@y™šÿÿÿÿ M5.75    17   ¿   >¸>Â\¿Ê=q>LÌÍ?&ff<À;…ÿÿÿÿC J=@ë33  Simbad@P\Yvã@:ıÒßÌP   / J04215563+2755060DE Tau                Yÿÿÿÿ  AøÌÍ@Fff M2.3     14   ¾ë…=õÂ=¸Qì¾Ñë…>\)=õÂ À!ë…=¸QìBı×
+?ˆõÃ  Simbad@P^Õıœ@;ë>2D   0 J04215740+2826355RY Tau                Yÿÿÿÿ  C@€ A™š G0       14   ?
+=q<#×
+<#×
+?Ü(ö=£×
+=LÌÍ À¸R=£×
+CÑì@$zá Simbad@P_Oi÷ö@<quÏ`<ß   1*J04220217+2657304FS Tau A             Y>hr° @G®>8Qì M0       16   ¾€  =ÌÌÍ=#×
+½áG®>\)=uÂ Àb\=¸QìC O\@=q Simbad@P`•­Lá@:õ[[ç·   2*J04220217+2657304FS Tau B             Y>hr°<?¸ÿÿÿÿ M3.5     16   ¿¸R>LÌÍ>\)¿
+=>…¸>#×
+<Àë…ÿÿÿÿC O\@=q Simbad@P`•­Lá@:õ[[ç·   3 J04221675+2654570CFHT-Tau-21           Yÿÿÿÿ <@†ffÿÿÿÿ M1.5     14   ¾ÌÌÍ=£×
+=ÌÌÍ¾£×
+=áG®>™š<ÀN¸RÿÿÿÿCøR@W
+=  Simbad@Pdx -ß@:êw/;?   4 J04224786+2645530IRAS 04196+2638     ÿ÷Nÿÿÿÿ  BL  ?™™š M1       24   ¾³33=¸Qì=ÌÌÍ¾€  >¸>\) À
+áH=¸QìC®@.¸R  Simbad@PlÄ²óÏ@:ÃÂseá”   5 J04230607+2801194J04230607+2801194     Yÿÿÿÿ  @ë…>\) M6       12   ¿œ(ö>LÌÍ>”zá¿Â\>¸R>úáH ÀUÂ>\)Cp¤@ÌÍ  Simbad@PqŸ\–z@<¨<‚öw   6 J04230776+2805573IRAS 04200+2759     ÿ÷Nÿÿÿÿ  Bff?¦ff M2       12   ¾áG®=ÌÌÍ=¸Qì¾Â\=õÂ>¸ ÀõÃ=¸QìC
+£×@UÂ  Simbad@Pr×sü@<k”Dû   7 J04231822+2641156J04231822+2641156   ÿ÷Nÿÿÿÿ <@y™šÿÿÿÿ M3.5     24   ¿¸R>LÌÍ>\)¿
+=>…¸>#×
+<ÀN{ÿÿÿÿCÌÍ@xQì Simbad@PtŞzÂü@:°zÂüà   8 J04233539+2503026FU Tau A             Nÿÿÿÿ <?Ù™šÿÿÿÿ M7.25    25   ¿¹™š>8Qì>LÌÍ¿ñë…>…¸>£×
+<ÀXõÃÿÿÿÿC33@&ff  Simbad@Pyp
+¦@9ş·r9I   9 J04233539+2503026FU Tau B             Nÿÿÿÿ <?Ù™šÿÿÿÿ M9.25    25   ¿â\>¸>\)Àff>™š>W
+=<ÀQG®ÿÿÿÿC33@&ff Simbad@Pyp
+¦@9ş·r9I   : J04233919+2456141FT Tau                Yÿÿÿÿ  B{™š@‰™š M2.8     14   ¿\>8Qì=¸Qì¾ğ£×>B\=áG® ÀÌÍ=¸QìBş®?Y™š  Simbad@PzsU‘êï@8ïòOmÀ   ; J04242090+2630511J04242090+2630511   ÿ÷Nÿÿÿÿ <?³33ÿÿÿÿ M6.5     24   ¿ª=q>.{>Š=q¿Ù™š>€  >æff<À^¸RÿÿÿÿC	0¤@^¸R  Simbad@P…’Ÿ†Š9@:ƒ¡œ&   < J04242646+2649503J04242646+2649503     Yÿÿÿÿ <@@  ÿÿÿÿ M5.75    17   ¿   >¸>Â\¿Ê=q>LÌÍ?&ff<ÀE¸ÿÿÿÿCë…@I™š  Simbad@P‡jüÎ@:Ô£Û³IU   = J04244457+2610141IRAS 04216+2603     ÿ÷Nÿÿÿÿ  Aff@    M2.8     14   ¿\>8Qì=¸Qì¾ğ£×>B\=áG® À £×=¸QìCë…@1G®  Simbad@P‹ãN$ú@:+«Œ±k¦   > J04245708+2711565IP Tau                Yÿÿÿÿ  AÌÍ?À   M0.6     14   ¾™™š=ÌÌÍ=£×
+¾8Qì>™š=áG® ÀG
+==ÌÌÍC
+?8Qì  Simbad@P8ÒLF@;2ôDiŒ¢   ? J04262939+2624137KPNO 3                Yÿÿÿÿ  @\=¸Qì M6       12   ¿œ(ö>LÌÍ>”zá¿Â\>¸R>úáH ÀMp¤>\)C‚@±™š  Simbad@P§Ö^øûp@:g`3š   @*J04263055+2443558J04263055+2443558     Nÿÿÿÿ <>™™šÿÿÿÿ M8.75    17   ¿Ù™š>¸>™šÀ£×>8Qì>uÂ<À„(öÿÿÿÿBïÂA ÌÍ  Simbad@P¨&™èÓ@8»oî:E   A J04265352+2606543FV Tau A             Y?8Qì @Åp¤>#×
+ 	K5       16   ½ÌÌÍ=LÌÍ=uÂ>¸=£×
+=õÂ ÀP£×=¸QìC@Éë… Simbad@P®GA)@:oš3d!   B J04265352+2606543FV Tau B             Y?8Qì @½Â>8Qì 	K6       1    ¾™š=#×
+=LÌÍ=LÌÍ=\)=£×
+ ÀP£×=¸QìC@Éë… Simbad@P®GA)@:oš3d!   C J04265440+2606510FV Tau/c A           Y?=p¤ ?B\>.{ 	M2.5     12   ¾õÂ>\)=£×
+¾Ü(ö>#×
+=áG® À™š=õÂCn@)™š  Simbad@P®ËĞ@:8ı/úQ   D J04265440+2606510FV Tau/c B           Y?=p¤ >ÌÌÍ=õÂ 	M3.5     16   ¿¸R>LÌÍ>\)¿
+=>…¸>#×
+ À‰G®>\)Cn@)™š Simbad@P®ËĞ@:8ı/úQ   E J04265732+2606284KPNO 13               Yÿÿÿÿ <@fffÿÿÿÿ M5.1     14   ¿p£×>\)>LÌÍ¿ˆõÃ>æff>½p¤<ÀP£×ÿÿÿÿCë…@G®  Simbad@P¯HÊ\P’@:ƒ’—^   F J04270280+2542223DF Tau AB           ÿÿNÿÿÿÿ  @Y™š?Ù™š M2/2.5   16   ¾\)=ÌÌÍ=¸Qì½ÌÌÍ>\)=õÂ À`£×>B\C¨ö@N{ Simbad@P°¾•@9´Ëÿ¾ÁY   G J04270469+2606163DG Tau                Yÿÿÿÿ  C¬šAff K7.0     14   ¾B\<#×
+=#×
+¼£×
+<#×
+=\) ¿ÁG®=¸QìC	hö@õÃ Simbad@P±@Bş@:½¢½í   H J04284263+2714039J04284263+2714039 A  Y?!G® ?+…=ÌÌÍ M5.25    13   ¿záH>Š=q>W
+=¿‘ë…>Ü(ö>ÌÌÍ À~{>\)C^¸@!ë…  Simbad@PË^‰"S@;<àUW©   I J04284263+2714039J04284263+2714039 B  Y?!G®<>”záÿÿÿÿ M5.25    13   ¿záH>Š=q>W
+=¿‘ë…>Ü(ö>ÌÌÍ<ÀŠáHÿÿÿÿC^¸@!ë… Simbad@PË^‰"S@;<àUW©   J J04290068+2755033J04290068+2755033     Nÿÿÿÿ <?ÌÌÍÿÿÿÿ M8.25    17   ¿Ğ£×>\)>8QìÀõÃ>W
+=>…¸<ÀP£×ÿÿÿÿCµÃ@õp¤  Simbad@PĞ.·—©@;êæ¹ù   K J04290498+2649073IRAS 04260+2642     ÿ÷Nÿÿÿÿ  Bğ  A    K5       26   ½ÌÌÍ=LÌÍ=uÂ>¸=£×
+=õÂ Àë…=¸QìCYš?}p¤ Simbad@PÑT±qú@:ÑŸj“ò   L J04292165+2701259IRAS 04263+2654       Yÿÿÿÿ  @8õÃ>\) M5.25    17   ¿záH>Š=q>W
+=¿‘ë…>Ü(ö>ÌÌÍ ÀW
+=>¸C)@® Simbad@PÕÆ¿<Ù-@; ­   M J04293606+2435556XEST 13-010         ÿ÷Nÿÿÿÿ  As33?™™š M3       12   ¿
+=q>B\=ÌÌÍ¿   >B\=õÂ À333=¸QìC øR?À    Simbad@PÙ:'r@8™I,:Jf   N J04294155+2632582DH Tau A             Nÿÿÿÿ  A  A33 M1       20   ¾³33=¸Qì=ÌÌÍ¾€  >¸>\) À0  >8QìCÙš?¢\  Simbad@PÛÕ ç@:Œª¦Ä   O J04294155+2632582DH Tau B             Nÿÿÿÿ <@s33ÿÿÿÿ M7.5     8    ¿À  >.{>.{¿ù™š>€  >€  <À@  ÿÿÿÿCÙš?¢\ Simbad@PÛÕ ç@:Œª¦Ä   P J04295156+2606448IQ Tau                Yÿÿÿÿ  Bw™š@   M1.1     14   ¾¸Qì=¸Qì=ÌÌÍ¾…¸>¸>\) À\)=¸QìCÊ=?‡®  Simbad@Pİ¿·'¨@:Ê)Ê   Q*J04295950+2433078CFHT-BD-Tau 20        Yÿÿÿÿ  @9™š>.{ M5       17   ¿k…>”zá>B\¿ƒ×
+>úáH>³33 ÀXQì=õÂC¸R@(Qì  Simbad@PßŞlÈ¶@8XÁzä   R*J04300399+1813493UX Tau A             Nÿÿÿÿ  B  @|ÌÍ G8       27   >½p¤=¸Qì=LÌÍ?s33>.{>¸ ÀQì=¸QìCff?úáH  Simbad@Páš:a³@2:ü*ÿ·Ã   S*J04300399+1813493UX Tau Ba            Nÿÿÿÿ <>¸Qìÿÿÿÿ M2       28   ¾áG®=ÌÌÍ=¸Qì¾Â\=õÂ>¸<ÀŒzáÿÿÿÿCff?úáH Simbad@Páš:a³@2:ü*ÿ·Ã   T*J04300399+1813493UX Tau Bb            Nÿÿÿÿ <>¸Qìÿÿÿÿ M3.0     7    ¿
+=q>B\=ÌÌÍ¿   >B\=õÂ<À‹…ÿÿÿÿCff?úáH Simbad@Páš:a³@2:ü*ÿ·Ã   U*J04300399+1813493UX Tau C             Nÿÿÿÿ <>¸Qìÿÿÿÿ M2.8     14   ¿\>8Qì=¸Qì¾ğ£×>B\=áG®<À‹×
+ÿÿÿÿCff?úáH Simbad@Páš:a³@2:ü*ÿ·Ã   V J04300724+2608207KPNO 6                Nÿÿÿÿ <@™šÿÿÿÿ M8.5     19   ¿ÕÂ>¸>.{ÀÌÍ>B\>€  <ÀQG®ÿÿÿÿBèğ¤@î¸R  Simbad@PáîÔ"ê‡@:#šíÍş   W*J04302961+2426450FX Tau A             Y?c×
+ @úáH?® M1       28   ¾³33=¸Qì=ÌÌÍ¾€  >¸>\) ÀHõÃ=¸QìC)?#×
+ Simbad@Pçåí;1@8r"ŸöcW   X*J04302961+2426450FX Tau B             Y?c×
+<>¸Qìÿÿÿÿ M4       28   ¿:áH>B\>B\¿.{>³33>B\<À‹×
+ÿÿÿÿC)?#×
+ Simbad@Pçåí;1@8r"ŸöcW   Y J04304425+2601244DK Tau A             Y@
+= Aòff>8Qì 	K8.5     14   ¾LÌÍ<£×
+    ½#×
+<õÂ<#×
+ À'®=£×
+C Í?záH  Simbad@PëÌYtæ[@:’ëA   Z J04304425+2601244DK Tau B             Y@
+= @8Qì>B\ 	M1.7     14   ¾×
+==¸Qì=ÌÌÍ¾®{=áG®>\) Àdzá=¸QìC Í?záH Simbad@PëÌYtæ[@:’ëA   [*J04305137+2442222ZZ Tau AB           ÿÿNÿÿÿÿ  ?
+==áG® M3/4.5   23,8 ¾uÂ>B\=ÌÌÍ¾®{>uÂ>.{ À‡®=áG®Cºá?¡G® Simbad@Pí´•Ä™@8´É½Üş+   \ J04305171+2441475ZZ Tau IRS            Yÿÿÿÿ  BÓ™š?À   M4.5     14   ¿Tzá>k…>LÌÍ¿Y™š>Ç®>…¸ ¿î{=ÌÌÍCºá?¡G® Simbad@PíÊ¾.Œ{@8²Q‰§$ã   ] J04305718+2556394KPNO 7                Nÿÿÿÿ <@&ffÿÿÿÿ M8.25    19   ¿Ğ£×>\)>8QìÀõÃ>W
+=>…¸<ÀLÌÍÿÿÿÿBö.@åÂ  Simbad@PïA²´4@9ñ¿åTš   ^ J04311444+2710179JH 56                 Yÿÿÿÿ <@Fffÿÿÿÿ K8.0     14   ¾LÌÍ<#×
+<#×
+¼õÂ<#×
+<#×
+<Àg®ÿÿÿÿBş
+=?8Qì  Simbad@PóÙ³Ğ|„@;+ğè”y¶   _*J04314007+1813571XZ Tau A             Y>™™š @é™š>×
+= M2       16   ¾áG®=ÌÌÍ=¸Qì¾Â\=õÂ>¸ ÀC33=£×
+C&f?Æff Simbad@Pú°˜Åü@2;~šQ®ï   `*J04314007+1813571XZ Tau B             Y>™™š Aff>úáH M3.5     16   ¿¸R>LÌÍ>\)¿
+=>…¸>#×
+ À:=q=¸QìC&f?Æff Simbad@Pú°˜Åü@2;~šQ®ï   a J04315056+2424180HK Tau A             Y@ff B33>LÌÍ 	M1       29   ¾³33=¸Qì=ÌÌÍ¾€  >¸>\) À\)=¸QìCÙš?Ñë…  Simbad@Pı|fkr@8gª xp   b J04315056+2424180HK Tau B             Y@ff A€  >uÂ 	M2       29   ¾áG®=ÌÌÍ=¸Qì¾Â\=õÂ>¸ À1ë…=£×
+CÙš?Ñë… Simbad@Pı|fkr@8gª xp   c*J04315779+1821380V710 Tau A           Y@JáH B„  @S×
+ 	M1.7     14   ¾×
+==¸Qì=ÌÌÍ¾®{=áG®>\) À®=¸QìCk…@ë…  Simbad@Pÿi>“é>@2\Llñ   d*J04315779+1821380V710 Tau B           Y@JáH<?(öÿÿÿÿ 	M3.3     14   ¿
+=>LÌÍ=õÂ¿ÌÍ>aG®>\)<Àƒ33ÿÿÿÿCk…@ë… Simbad@Pÿi>“é>@2\Llñ   e*J04315968+1821305LkHa 267            ÿ÷Nÿÿÿÿ <>™™šÿÿÿÿ M1.7     14   ¾×
+==¸Qì=ÌÌÍ¾®{=áG®>\)<ÀŒzáÿÿÿÿCÏ\@r\  Simbad@PÿêÀ8°@2[ÂN‚h   f J04321540+2428597Haro 6-13             Yÿÿÿÿ  Bï33@¶ff M0       30   ¾€  =ÌÌÍ=#×
+½áG®>\)=uÂ À   =£×
+C®?\ Simbad@Q„kL@8{´C   g*J04321606+1812464MHO 5                 Nÿÿÿÿ <>¸Rÿÿÿÿ M6.5     14   ¿ª=q>.{>Š=q¿Ù™š>€  >æff<À‚áHÿÿÿÿC\@     Simbad@QH½‹oÛ@26˜N·L   h J04322210+1827426MHO 6                 Yÿÿÿÿ  AšõÃ>™™š M5.0     14   ¿k…>”zá>B\¿ƒ×
+>úáH>³33 À¸R=õÂCaH?úáH  Simbad@Qåj½ãû@2v;•I•   i*J04322415+2251083J04322415+2251083   ÿ÷Nÿÿÿÿ <>™™šÿÿÿÿ M4.5     12   ¿Tzá>k…>LÌÍ¿Y™š>Ç®>…¸<ÀˆQìÿÿÿÿCÂ@:=q  Simbad@Qq-Qé0@6Ú0øOİ   j*J04323028+1731303GG Tau Aa            Nÿÿÿÿ  @à  ?^¸R K7       31   ¾B\<#×
+=#×
+¼£×
+<#×
+=\) ÀHQì=¸QìCuÃ@p¤  Simbad@QD÷°@1†kåÒo,   k*J04323028+1731303GG Tau Ab            Nÿÿÿÿ <@™šÿÿÿÿ M0.5     31   ¾”zá=ÌÌÍ=\)¾.{>™š=ÌÌÍ<Àc×
+ÿÿÿÿCuÃ@p¤ Simbad@QD÷°@1†kåÒo,   l*J04323028+1731303GG Tau Ba            Nÿÿÿÿ <@™šÿÿÿÿ M5.5     31   ¿†ff>Š=q>k…¿   >æff>Ç®<ÀR\ÿÿÿÿCuÃ@p¤ Simbad@QD÷°@1†kåÒo,   m*J04323028+1731303GG Tau Bb            Nÿÿÿÿ <@™šÿÿÿÿ M7.5     31   ¿À  >.{>.{¿ù™š>€  >€  <ÀG
+=ÿÿÿÿCuÃ@p¤ Simbad@QD÷°@1†kåÒo,   n J04323058+2419572FY Tau               YA‰™š A\ÌÍ@£33 M0.1     14   ¾…¸=ÌÌÍ=LÌÍ½õÂ>\)=\) À;…>™šC½q?™™š  Simbad@Q'€î×¡@8U%]WáÇ   o J04323176+2420029FZ Tau               YA‰™š A[33@™š M0.5     14   ¾”zá=ÌÌÍ=\)¾.{>™š=ÌÌÍ À:áH=áG®C\?¡G®  Simbad@QxY~8s@8U ¥q%   p J04324303+2552311UZ Tau Eab          ÿÿNÿÿÿÿ  C š@é™š M1/4     20,32½LÌÍ=¸Qì=ÌÌÍ½áG®>8Qì>™š ¿øQì=ÌÌÍC}q@õp¤ Simbad@Q|‹³n@9àšİ~S   q J04324303+2552311UZ Tau Wa            Nÿÿÿÿ  A™š@y™š M2       16   ¾áG®=ÌÌÍ=¸Qì¾Â\=õÂ>¸ À1G®>¸C}q@õp¤ Simbad@Q|‹³n@9àšİ~S   r J04324303+2552311UZ Tau Wb            Nÿÿÿÿ  Aø  @ƒ33 M3       16   ¿
+=q>B\=ÌÌÍ¿   >B\=õÂ Àp¤=áG®C}q@õp¤ Simbad@Q|‹³n@9àšİ~S   s J04324911+2253027IRAS04298+2246Aa     Y?Ó33 @aë…>k… 	K5.5     14   ½áG®=\)=#×
+=áG®=ÌÌÍ=\) ÀXQì=¸QìC#Ê=@õÃ  Simbad@Qôw¬@6âUöoÃ   t J04324911+2253027IRAS04298+2246Ab     Y?Ó33 @C×
+>uÂ 	M4.6     14   ¿W
+=>aG®>LÌÍ¿c×
+>¸Qì>\) ÀL(ö=áG®C#Ê=@õÃ Simbad@Qôw¬@6âUöoÃ   u J04324911+2253027IRAS04298+2246Ba     Nÿÿÿÿ  >€  =£×
+ 	M8.5     7    ¿ÕÂ>¸>.{ÀÌÍ>B\>€   À|ÌÍ>™šC#Ê=@õÃ Simbad@Qôw¬@6âUöoÃ   v J04324911+2253027IRAS04298+2246Bb     Nÿÿÿÿ  @33>uÂ 	M8.5     7    ¿ÕÂ>¸>.{ÀÌÍ>B\>€   À?\)=ÌÌÍC#Ê=@õÃ Simbad@Qôw¬@6âUöoÃ   w*J04330622+2409339GH Tau A             Y>¸R @y™š>aG® M2       16   ¾áG®=ÌÌÍ=¸Qì¾Â\=õÂ>¸ ÀZáH=£×
+C®?\ Simbad@Q¨}Á@8(Ê”=!i   x*J04330622+2409339GH Tau B             Y>¸R @9™š>8Qì M2       16   ¾áG®=ÌÌÍ=¸Qì¾Â\=õÂ>¸ Àc33=¸QìC®?\ Simbad@Q¨}Á@8(Ê”=!i   y*J04330664+2409549V807 Tau A           Nÿÿÿÿ  Aff>ë… K7       33   ¾B\<#×
+=#×
+¼£×
+<#×
+=\) ÀI™š=£×
+C®?\ Simbad@QÄ¢£u,@8*Pr[   z*J04330664+2409549V807 Tau Bab        ÿşNÿÿÿÿ <>¨õÃÿÿÿÿ M2/2.5   33   ¾\)=ÌÌÍ=¸Qì½ÌÌÍ>\)=õÂ<À‘ë…ÿÿÿÿC®?\ Simbad@QÄ¢£u,@8*Pr[   {*J04330945+2246487J04330945+2246487     Yÿÿÿÿ <>\)ÿÿÿÿ M6       17   ¿œ(ö>LÌÍ>”zá¿Â\>¸R>úáH<À‚\ÿÿÿÿC ¡H@s×
+ Simbad@Q†éUá@6Ç¹p‡àÂ   | J04331435+2614235IRAS 04301+2608     ÿ÷Nÿÿÿÿ  @Ó33@lÌÍ M0       12   ¾€  =ÌÌÍ=#×
+½áG®>\)=uÂ À.{>…¸CpB‚¸  Simbad@QÔSÙ„@:=gr^’s   } J04331907+2246342IRAS 04303+2240     ÿ÷Nÿÿÿÿ <@À  ÿÿÿÿ M0.5     30   ¾”zá=ÌÌÍ=\)¾.{>™š=ÌÌÍ<ÀFffÿÿÿÿC ¡H@s×
+ Simbad@Q)ö@6Æ²•éá°   ~ J04333278+1800436J04333278+1800436   ÿ÷Nÿÿÿÿ  A0  ?ó33 M1       34   ¾³33=¸Qì=ÌÌÍ¾€  >¸>\) À8õÃ=áG®C—
+?     Simbad@Q¿¥´¹€@2ÄµG¤    J04333405+2421170GI Tau               YAQ™š A@  ?€   M0.4     14   ¾\)=ÌÌÍ=\)¾#×
+>™š=¸Qì À>¸R=¸QìC?G®  Simbad@Q8Éìw@8ZĞK•¸ò   € J04333456+2421058GK Tau               YAQ™š @¦ff>aG® 	K6.5     14   ¾8Qì<£×
+=\)    <õÂ=ÌÌÍ ÀXõÃ=£×
+C Ê=?:áH  Simbad@Q7zaæ@8Z/à°7   *J04333678+2609492IS Tau A             Y>aG® ?“33>#×
+ M0       16   ¾€  =ÌÌÍ=#×
+½áG®>\)=uÂ Àu¸=ÌÌÍC!Yš@® Simbad@QÏÔ¿	•@:)ãµÕÈ¬   ‚*J04333678+2609492IS Tau B             Y>aG® ?†ff>#×
+ M3.5     16   ¿¸R>LÌÍ>\)¿
+=>…¸>#×
+ Ào\)=ÌÌÍC!Yš@® Simbad@QÏÔ¿	•@:)ãµÕÈ¬   ƒ J04333905+2227207J04333905+2227207   ÿ÷Nÿÿÿÿ  Aø  @    M1.75    12   ¾×
+==¸Qì=ÌÌÍ¾³33=áG®>\) ¿n{>Š=qDJŠ=C­š Simbad@Qk©<Ô„@6t§¿¸X   „ J04333906+2520382DL Tau                Yÿÿÿÿ  C(ÌÍA,ÌÍ K5.5     14   ½áG®=\)=#×
+=áG®=ÌÌÍ=\) ¿İp¤=£×
+C¸?šáH  Simbad@Qk¢?B¬@9X
+âáÊ*   …*J04333935+1751523HN Tau A             Y@HõÃ A{33?J=q K3       14   =LÌÍ=£×
+=\)>Â\>\)=áG® À9™š=£×
+C®?=p¤ Simbad@QşS@1İQ¿?-³   †*J04333935+1751523HN Tau B             Y@HõÃ ?
+=q=ÌÌÍ M4.8     14   ¿aG®>½p¤>B\¿s33?#×
+>™™š À€õÃ>¸C®?=p¤ Simbad@QşS@1İQ¿?-³   ‡ J04334171+1750402J04334171+1750402   ÿ÷Nÿÿÿÿ  @À  @    M4       35   ¿:áH>B\>B\¿.{>³33>B\ ÀC33>™šC½q?Å¸  Simbad@Q ”Öëò@1Ø0óºî   ˆ J04334465+2615005J04334465+2615005   ÿ÷Nÿÿÿÿ  AaÂ>Š=q M5.2     14   ¿xQì>Š=q>LÌÍ¿\)>Ü(ö>Ç® À¸R=õÂC!Yš@® Simbad@QèÏå³@:@ÏHï¤   ‰ J04334871+1810099DM Tau                Yÿÿÿÿ  B²ÌÍ@Fff M3.0     14   ¿
+=q>B\=ÌÌÍ¿   >B\=õÂ ¿øQì=¸QìCŒÍ?Š=q  Simbad@Qşà9ab@2+`<à+f   Š J04335470+2613275IT Tau A             Y@=q @à  >uÂ 	K6.0     14   ¾™š=#×
+=LÌÍ=LÌÍ=\)=£×
+ ÀE¸=£×
+C!E?ü(ö  Simbad@Q–Eì[~@:9lñ}µ   ‹ J04335470+2613275IT Tau B             Y@=q @…p¤>Š=q 	M2.9     14   ¿¸>B\=¸Qì¾õÂ>B\=áG® ÀJáH=¸QìC!E?ü(ö Simbad@Q–Eì[~@:9lñ}µ   Œ J04345542+2428531AA Tau                Yÿÿÿÿ  B‚  @`   M0.6     14   ¾™™š=ÌÌÍ=£×
+¾8Qì>™š=áG® À  =¸QìC Ç®?+… Simbad@Q.Ç~OÀğ@8{<şv3’    J04352020+2232146HO Tau                Yÿÿÿÿ  A™š>LÌÍ 	M3.2     14   ¿ë…>LÌÍ=áG®¿®>LÌÍ>¸ À%¸=¸QìC «…?¸R  Simbad@Q5c²VÿÀ@6‰‘‰g    J04352737+2414589DN Tau                Yÿÿÿÿ  B¤™š@   M0.3     14   ¾Š=q=áG®=uÂ¾\)>™š=¸Qì À
+=q=¸QìBÿ…?c×
+  Simbad@Q7Lú= Ê@8?ì#’LÍ    J04354093+2411087CoKu Tau 3 A         Y@ff ?ë…>™™š 	M0.5     14   ¾”zá=ÌÌÍ=\)¾.{>™š=ÌÌÍ Àu¸=ÌÌÍBù³3@ë…  Simbad@Q:ê²=]ÿ@8/‰}3y    J04354093+2411087CoKu Tau 3 B         Y@ff @¹G®>”zá 	M4.3     14   ¿J=q>W
+=>LÌÍ¿E¸>Ñë…>aG® ÀK…=ÌÌÍBù³3@ë… Simbad@Q:ê²=]ÿ@8/‰}3y   ‘ J04354733+2250216HQ Tau                Yÿÿÿÿ  @†ff@ÌÍ K2.0     14   =áG®=\)=#×
+?   =áG®=\) ÀZ=q>B\C"Š=@¢\ Simbad@Q<Ÿ@¢‡~@6ÖßBaëô   ’ J04355277+2254231HP Tau                Yÿÿÿÿ  BNÌÍ@–ff K4.0     14   ½#×
+=uÂ=£×
+>uÂ=õÂ>\) À…=¸QìC0Yš@W®  Simbad@Q>B£*›@6èú€“ö   “*J04355684+2254360Haro 6-28 A          Y?&ff @£33>”zá M3.1     14   ¿ÌÍ>LÌÍ=ÌÌÍ¿\>B\=õÂ ÀDzá=¸QìC"Š=@¢\ Simbad@Q?* xp@6èò—©F&   ”*J04355684+2254360Haro 6-28 B          Y?&ff ?G®>™š M3.5     16   ¿¸R>LÌÍ>\)¿
+=>…¸>#×
+ Àw®=áG®C"Š=@¢\ Simbad@Q?* xp@6èò—©F&   •*J04361030+2159364J04361030+2159364     Nÿÿÿÿ <>¸Rÿÿÿÿ M8.5     17   ¿ÕÂ>¸>.{ÀÌÍ>B\>€  <À„záÿÿÿÿBíÇ®A
+áH  Simbad@QB¿qFóª@5şSÂ6ĞF   –*J04362151+2351165J04362151+2351165   ÿ÷Nÿÿÿÿ  ?¹™š=õÂ M5.1     14   ¿p£×>\)>LÌÍ¿ˆõÃ>æff>½p¤ Àqë…=õÂBæ=q?Ù™š  Simbad@QE¼²»2@@7ÚÈR[^;   — J04375670+2546229ITG 1               ÿ÷Nÿÿÿÿ <@33ÿÿÿÿ M6       36   ¿œ(ö>LÌÍ>”zá¿Â\>¸R>úáH<¿ÚáHÿÿÿÿDZhöB¿8R  Simbad@Q_ÇÈà@9Åä!ÚL   ˜ J04381486+2611399J04381486+2611399     Nÿÿÿÿ  ?+…=ÌÌÍ M7.25    13   ¿¹™š>8Qì>LÌÍ¿ñë…>…¸>£×
+ ÀlÌÍ>\)CzáA€{  Simbad@Qcø	+<@:1Æ™ôz   ™ J04382134+2609137GM Tau                Yÿÿÿÿ  ?†ff=\) M5.0     14   ¿k…>”zá>B\¿ƒ×
+>úáH>³33 ÀqG®=õÂC	Ş¸@7
+=  Simbad@Qe°¾í(@:'aT~õ1   š J04382858+2610494DO Tau                Yÿÿÿÿ  BØff@ÜÌÍ M0.3     14   ¾Š=q=áG®=uÂ¾\)>™š=¸Qì ¿ü(ö=¸QìC
+Ô{?‚\  Simbad@QgŸŸ¸f@:./Få¯z   › J04385859+2336351J04385859+2336351     Yÿÿÿÿ  A+®>8Qì M4.25    37   ¿G®>W
+=>LÌÍ¿@  >ÌÌÍ>W
+= À:=q=ÌÌÍBüÌÍ?õÂ  Simbad@Qo ŠZ‘.@7œ…Ë'	   œ J04390163+2336029J04390163+2336029     Yÿÿÿÿ  >æff=ÌÌÍ M4.9     14   ¿fff>¨õÃ>B\¿}p¤?ë…>£×
+ À‡
+=>\)Bş¸R?¦ff  Simbad@Qpo€‘¢³@7™ÏwŠ¦    J04390396+2544264J04390396+2544264     Nÿÿÿÿ  ?n{=õÂ M7.25    13   ¿¹™š>8Qì>LÌÍ¿ñë…>…¸>£×
+ Àdzá=õÂC¸@Œzá  Simbad@Qq]ªk@9½›3µ°   *J04391741+2247533VY Tau A             Y?(õÃ ?ó33>aG® M1.5     14   ¾ÌÌÍ=£×
+=ÌÌÍ¾£×
+=áG®>™š Àdzá=¸QìC&f?šáH Simbad@Qt¥B‹İ_@6ÌSõzS#   Ÿ*J04391741+2247533VY Tau B             Y?(õÃ<?™šÿÿÿÿ M4.5     8    ¿Tzá>k…>LÌÍ¿Y™š>Ç®>…¸<À|(öÿÿÿÿC&f?šáH Simbad@Qt¥B‹İ_@6ÌSõzS#     J04391779+2221034LkCa 15               Yÿÿÿÿ  Bş  @œÌÍ K5.5     14   ½áG®=\)=#×
+=áG®=ÌÌÍ=\) ¿ìÌÍ=£×
+C&f?šáH  Simbad@Qt¾Œë¬»@6Y×FÓK   ¡*J04392090+2545021GN Tau A             Y>®{ >ğ£×=õÂ M2.5     14   ¾õÂ>\)=£×
+¾Ü(ö>#×
+=áG® ÀˆQì>¸C:á?ìÌÍ Simbad@Qu”IòJÃ@9À$áØ&„   ¢*J04392090+2545021GN Tau B             Y>®{ ?
+==õÂ M2.5     8    ¾õÂ>\)=£×
+¾Ü(ö>#×
+=áG® À…¸=áG®C:á?ìÌÍ Simbad@Qu”IòJÃ@9À$áØ&„   £ J04393364+2359212J04393364+2359212   ÿ÷Nÿÿÿÿ  @P  =¸Qì M5       12   ¿k…>”zá>B\¿ƒ×
+>úáH>³33 ÀVff=õÂBıaH?Ñë…  Simbad@Qxø@„<@7ı>pÍÈ   ¤ J04394488+2601527ITG 15              ÿ÷Nÿÿÿÿ  @g
+==ÌÌÍ M5.0     14   ¿k…>”zá>B\¿ƒ×
+>úáH>³33 ÀO\)=õÂC^¸@¸  Simbad@Q{÷Ø+.R@:Î¶c   ¥ J04394748+2601407CFHT 4                Nÿÿÿÿ  @   ?    M7       19   ¿´zá>8Qì>LÌÍ¿ê=q>€  >¸R ÀO\)>\)CÑì@¥¸  Simbad@Q|©p¥@:)\¯   ¦ J04400067+2358211J04400067+2358211     Yÿÿÿÿ  @HQì=£×
+ M6       12   ¿œ(ö>LÌÍ>”zá¿Â\>¸R>úáH ÀR\>\)BğLÍ@×
+  Simbad@Q€-Ëeè@7ø÷N°O^   § J04400800+2605253IRAS 04370+2559       Yÿÿÿÿ  BNÌÍ?LÌÍ M2.9     36   ¿¸>B\=¸Qì¾õÂ>B\=áG® À{=ÌÌÍC¨öA    Simbad@Q‚"p1©f@:$)ÂĞš   ¨ J04403979+2519061J04403979+2519061   ÿÿNÿÿÿÿ <>Ü(öÿÿÿÿ 
+M5.25/7  13,8 ¿.{>Š=q>W
+=¿‡®>Ç®>Â\<À…¸ÿÿÿÿCºá=LÌÍ Simbad@QŠœe}a@9QU^§l   ©*J04404950+2551191JH 223 A             Y@ff ?Ù™š>\) M2.8     14   ¿\>8Qì=¸Qì¾ğ£×>B\=áG® Àl(ö=¸QìCc×?Š=q  Simbad@Q3ïñ•@9Úòâ:~   ª*J04404950+2551191JH 223 B             Y@ff ?B\>¸ M6       38   ¿œ(ö>LÌÍ>”zá¿Â\>¸R>úáH Àqë…>™šCc×?Š=q Simbad@Q3ïñ•@9Úòâ:~   «*J04410826+2556074ITG 33A               Yÿÿÿÿ  @ƒ33>k… M3       39   ¿
+=q>B\=ÌÌÍ¿   >B\=õÂ ÀS33=¸QìCzá@†{  Simbad@Q’3ùC¬Î@9ïuMU   ¬*J04411078+2555116ITG 34                Yÿÿÿÿ  ?333=õÂ M5.5     13   ¿†ff>Š=q>k…¿   >æff>Ç® Àqë…>\)CŠ=@ÉG®  Simbad@Q’àXÖrÇ@9ë|¾öñz   ­ J04411681+2840000CoKu Tau/4 AB       ÿÿNÿÿÿÿ  @Y™š?ó33 M1.1/2.5 8    ½uÂ=¸Qì=ÌÌÍ½#×
+>\)>¸ À`  >aG®C
+ÌÍA•™š Simbad@Q”{š‡Fø@<ª¬ƒ>³   ®*J04412464+2543530ITG 40              ÿ÷Nÿÿÿÿ  ?€  =õÂ M3.5     24   ¿¸R>LÌÍ>\)¿
+=>…¸>#×
+ Ày™š=ÌÌÍC
+Å?˜Qì Simbad@Q–’d2‹@9»<Æ‰¤Ï   ¯ J04413882+2556267IRAS 04385+2550       Yÿÿÿÿ  AÌ  @ÌÍ M0       40   ¾€  =ÌÌÍ=#×
+½áG®>\)=uÂ À'
+==¸QìC8R?£×
+ Simbad@QšZÌ™‰I@9ğÔªà!   °*J04414489+2301513J04414489+2301513     Nÿÿÿÿ <>Â\ÿÿÿÿ M8.5     17   ¿ÕÂ>¸>.{ÀÌÍ>B\>€  <À€õÃÿÿÿÿBğæf@±G®  Simbad@Q›øä#Z`@7ìé@è   ± J04414825+2534304J04414825+2534304     Nÿÿÿÿ  ?«…=¸Qì M7.75    13   ¿Æff>™š>.{ÀG®>uÂ>uÂ À[…=ÌÌÍCÏ\@p    Simbad@QœŞzÂü@9“=î¤]   ²*J04420777+2523118V955 Tau A           Y>£×
+ @ÌÍ>.{ K7       16   ¾B\<#×
+=#×
+¼£×
+<#×
+=\) Àk…=£×
+C@ @Qì Simbad@Q¢öt @9bùSüwä   ³*J04420777+2523118V955 Tau B           Y>£×
+ ?\(ö>\) M2.5     16   ¾õÂ>\)=£×
+¾Ü(ö>#×
+=áG® À~¸R=ÌÌÍC@ @Qì Simbad@Q¢öt @9bùSüwä   ´ J04422101+2520343CIDA 7                Yÿÿÿÿ  Ah  @æff M5.1     14   ¿p£×>\)>LÌÍ¿ˆõÃ>æff>½p¤ À(Qì>LÌÍC³3@ë…  Simbad@Q¥›mQS@9WÅ¾ëJİ   µ*J04423769+2515374DP Tau A             Y=áG® @ff>k… M0.8     14   ¾¨õÃ=ÌÌÍ=¸Qì¾aG®>\)=õÂ Ài™š=¸QìC{?ï\) Simbad@Qª¡m‹”@9B¡oà   ¶*J04423769+2515374DP Tau B             Y=áG® ?À  >W
+= M2       8    ¾áG®=ÌÌÍ=¸Qì¾Â\=õÂ>¸ Àp  =ÌÌÍC{?ï\) Simbad@Qª¡m‹”@9B¡oà   · J04430309+2520187GO Tau                Yÿÿÿÿ  BTÌÍ@333 M2.3     14   ¾ë…=õÂ=¸Qì¾Ñë…>\)=õÂ À…=¸QìCúá?€    Simbad@Q°Ò }ÔA@9V©æî·   ¸*J04432023+2940060J04432023+2940060     Yÿÿÿÿ <>Â\ÿÿÿÿ M5.5     14   ¿†ff>Š=q>k…¿   >æff>Ç®<À~¸RÿÿÿÿC*uÃ@i™š  Simbad@Qµd½$èÕ@=«Û°ôÏ   ¹ J04442713+2512164IRAS 04414+2506       Nÿÿÿÿ  @œÌÍ>ÌÌÍ M7.25    13   ¿¹™š>8Qì>LÌÍ¿ñë…>…¸>£×
+ À7®=áG®C‡®@-p¤  Simbad@QÇ<èS;@94^{'/`   º J04455134+1555367IRAS 04429+1550     ÿ÷Nÿÿÿÿ  BL  @    M2.5     35   ¾õÂ>\)=£×
+¾Ü(ö>#×
+=áG® À…=¸QìCaH?     Simbad@Qİ±–Â–Y@/ÚŒL˜^   » J04465305+1700001DQ Tau AB           ÿÿNÿÿÿÿ  BŠ™š@–ff M0/0     41   =LÌÍ=ÌÌÍ=#×
+>B\>\)=uÂ ¿ù™š=¸QìCD\)@ £×  Simbad@Qî&±¿@1 u%F
+   ¼*J04465897+1702381Haro 6-37 A          Nÿÿÿÿ  @ff>®{ K8.0     14   ¾LÌÍ<#×
+<#×
+¼õÂ<#×
+<#×
+ ÀZáH=ÌÌÍCC¦f?\(ö Simbad@QïºVj«@1?Ú"V   ½*J04465897+1702381Haro 6-37 B          Nÿÿÿÿ <?uÂÿÿÿÿ M0.9     14   ¾®{=¸Qì=ÌÌÍ¾k…>\)>¸<Àmp¤ÿÿÿÿCC¦f?\(ö Simbad@QïºVj«@1?Ú"V   ¾*J04465897+1702381Haro 6-37 C          Nÿÿÿÿ  B  ?ù™š M1       20   ¾³33=¸Qì=ÌÌÍ¾€  >¸>\) Àff=£×
+CC¦f?\(ö Simbad@QïºVj«@1?Ú"V   ¿ J04470620+1658428DR Tau                Yÿÿÿÿ  Bæff@ÜÌÍ K6       14   ¾™š=#×
+=LÌÍ=LÌÍ=\)=£×
+ ¿Ù™š=£×
+CB™š@p¤  Simbad@Qñ¨K¨]"@0ú‚ß+°   À J04474859+2925112DS Tau                Yÿÿÿÿ  A„  ?æff M0.4     14   ¾\)=ÌÌÍ=\)¾#×
+>™š=¸Qì À*áH=¸QìCYš?\)  Simbad@QüõsU‘ê@=kv_Ø­«   Á J04514737+3047134UY Aur A             Y?aG® A¦ff>k… 	M0       16   ¾€  =ÌÌÍ=#×
+½áG®>\)=uÂ À&ff=£×
+Cî?·
+=  Simbad@R<£)qBJ@>É=nOP   Â J04514737+3047134UY Aur B             Y?aG® @û×
+>€   	M2.5     16   ¾õÂ>\)=£×
+¾Ü(ö>#×
+=áG® À<ÌÍ=¸QìCî?·
+= Simbad@R<£)qBJ@>É=nOP   Ã J04542368+1709534St 34 Aab           ÿÿNÿÿÿÿ <@†ffÿÿÿÿ M3/3     32   ¾uÂ>B\=ÌÌÍ¾B\>B\=õÂ<ÀVffÿÿÿÿC(ö?“33   Simbad@RfP½Ã\j@1*3İMel   Ä J04542368+1709534St 34 B              Nÿÿÿÿ <@†ffÿÿÿÿ M5.5     42   ¿†ff>Š=q>k…¿   >æff>Ç®<ÀEÂÿÿÿÿC(ö?“33  Simbad@RfP½Ã\j@1*3İMel   Å*J04554535+3019389J04554535+3019389     Yÿÿÿÿ <>Ç®ÿÿÿÿ M4.7     14   ¿\(ö>¸Qì>LÌÍ¿k…?™š>”zá<À„(öÿÿÿÿC¸@¸  Simbad@R|÷oO@>SÔ‚sû   Æ*J04554801+3028050J04554801+3028050    Nÿÿÿÿ <>³33ÿÿÿÿ M5.6     13   ¿‡®>”zá>aG®¿   >úáH>¸Qì<À‚\ÿÿÿÿC0¤@n¸R  Simbad@R|ÎMG"D@>wÏ€Ü3q   Ç*J04554969+3019400J04554969+3019400   ÿ÷Nÿÿÿÿ <>³33ÿÿÿÿ M6       13   ¿œ(ö>LÌÍ>”zá¿Â\>¸R>úáH<À€£×ÿÿÿÿCÍ@”(ö  Simbad@R}@äğhk@>SéùrF   È J04555605+3036209XEST 26-062         ÿ÷Nÿÿÿÿ  ?&ff>\) M4.0     14   ¿:áH>B\>B\¿.{>³33>B\ À}p¤=õÂC”{?\(ö Simbad@R~ór²uJ@>›Ø/×]   É J04555938+3034015SU Aur                Yÿÿÿÿ  AÛ33@    G4       14   >úáH<£×
+<#×
+?¨õÃ=¸Qì=ÌÌÍ À5¸=¸QìC®?½p¤  Simbad@RÖç@>‘,_’Åø   Ê*J04560118+3026348XEST 26-071         ÿ÷Nÿÿÿÿ <>³33ÿÿÿÿ M3.1     14   ¿ÌÍ>LÌÍ=ÌÌÍ¿\>B\=õÂ<Àˆ£×ÿÿÿÿC”{?\(ö Simbad@R€Q# *@>qe5%Û+   Ë J05030659+2523197V836 Tau              Yÿÿÿÿ  AèÌÍ@™š M0.8     14   ¾¨õÃ=ÌÌÍ=¸Qì¾aG®>\)=õÂ À
+==¸QìC(Â?¸R  Simbad@RñÂ{¶f@9c‡e'*   Ì J05044139+2509544CIDA 8                Yÿÿÿÿ  @öff?ÌÌÍ M3.7     14   ¿+…>LÌÍ>.{¿!G®>”zá>8Qì À4zá=õÂC)ıq@Qì  Simbad@S
+*²Ò@9*HôâÜ   Í*J05052286+2531312CIDA 9 A             Y@33 B33?ØQì M1.8     14   ¾×
+==¸Qì=ÌÌÍ¾¸Qì=áG®>\) À\)=£×
+C+{@'®  Simbad@S/şú@9†w=6bÁ   Î*J05052286+2531312CIDA 9 B             Y@33<>×
+=ÿÿÿÿ M4.6     14   ¿W
+=>aG®>LÌÍ¿c×
+>¸Qì>\)<À€£×ÿÿÿÿC+{@'® Simbad@S/şú@9†w=6bÁ   Ï*J05062332+2432199CIDA 11             ÿÿNÿÿÿÿ <>¸Qìÿÿÿÿ M4/4.5   43,8 ¾Ü(ö>B\>B\¾ë…>¸Qì>aG®<À‹×
+ÿÿÿÿC
+ÌÍA•™š Simbad@S&8Ö½X,@8‰ó=lz   Ğ J05074953+3024050RW Aur A             Y?µÂ AÙ™š@ÌÍ K0       14   >LÌÍ=#×
+=£×
+?#×
+=\)>\) À1G®>¸C
+ÌÍA•™š Simbad@S=7¹K?@>fÄ¤÷û   Ñ J05074953+3024050RW Aur B             Y?µÂ @ŒÌÍ?LÌÍ K6.5     14   ¾8Qì<£×
+=\)    <õÂ=ÌÌÍ ÀY™š>\)C
+ÌÍA•™š Simbad@S=7¹K?@>fÄ¤÷û   Ò J05075496+2500156CIDA 12               Yÿÿÿÿ  ?”zá=¸Qì M3.7     14   ¿+…>LÌÍ>.{¿!G®>”zá>8Qì Àk…=ÌÌÍC$&f@õÃ  Simbad@S>¨Q{¬@9ø›ç!   Ó                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
